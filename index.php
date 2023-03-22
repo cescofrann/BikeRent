@@ -3,7 +3,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    $conn = new mysqli("localhost","5f","Esercizio2023!","Biciclette");
+    $conn = new mysqli("http://173.249.59.244","5f","Esercizio2023!","Biciclette");
 	if($conn->connect_error){
   		die("Errore: " . $conn->connect_error . " (Contatta un Amminitratore)");
 	}
