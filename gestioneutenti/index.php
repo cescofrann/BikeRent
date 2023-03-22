@@ -4,40 +4,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Gestione Bici</title>
-	<style>
-	 	table, th, td, tr {
-			border: 3% solid transparent;
-			border-collapse: collapse;
-		}	
 
-		.icona {
-		  width: 80%;
-		  height: 100px;
-		  background-color: #f2f2f2;
-		  border-radius: 10px;
-		  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-		  transition: transform 0.3s ease-in-out;
-		}
-
-		body{
-		  width: 100%;
-		  overflow-x: auto;
-		}	
-
-		table {
-		  width: 100%;
-		  max-width: 100%;
-		  margin-bottom: 1rem;
-		  background-color: transparent;
-		  border-collapse: collapse;
-		}
-	</style>
+	<link rel="stylesheet" href="main.css">
 </head>
 <body>
 
 <?php
 	//Collegamento al database mysql
-	$conn = new mysqli("173.249.59.244","5f","Esercizio2023!","Biciclette");
+	$conn = new mysqli("localhost","5f","Esercizio2023!","Biciclette");
 	if($conn->connect_error){
   		die("Connection failed: " . $conn->connect_error);
 	}
