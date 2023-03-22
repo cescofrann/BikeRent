@@ -37,7 +37,7 @@
 
 <?php
 	//Collegamento al database mysql
-	$conn = new mysqli("localhost","5f","Esercizio2023!","Biciclette");
+	$conn = new mysqli("173.249.59.244","5f","Esercizio2023!","Biciclette");
 	if($conn->connect_error){
   		die("Connection failed: " . $conn->connect_error);
 	}
