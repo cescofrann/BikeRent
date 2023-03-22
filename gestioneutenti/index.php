@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Gestione Bici</title>
+	<title>Gestione Utente</title>
 
 	<link rel="stylesheet" href="main.css">
 </head>
