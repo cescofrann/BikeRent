@@ -113,7 +113,7 @@ echo "$sql";
 
   	}
   }
-	$con->close();
+	$conn->close();
 ?>
 
 
