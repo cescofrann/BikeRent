@@ -149,7 +149,7 @@
 
   	}
   }
-	$con->close();
+	$conn->close();
 ?>
 
 
